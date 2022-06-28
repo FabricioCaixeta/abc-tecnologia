@@ -1,0 +1,60 @@
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    /* resolvendo o float */
+    overflow: hidden;
+}
+
+.menu li {
+    /* deixar elementos lista lado a lado */
+    float: left;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: blue;
+}
+
+/* Exercicio de (design Responsivo 
+1) crie uma regra condicional para tela de no maximo
+/* 760 px de larg */
+/* escondendo o item que tem o ícone */
+.menu li.icone {display: none;}
+
+@media screen and (max-width: 760px){
+/* escondendo os itens do menu */
+    .menu li {display: none;}
+    /* exibindo novamente o item/ícone Menu */
+    .menu li.icone {
+        display:block;
+        float:right;
+    }
+
+    
+
+
+/* 2)dentro desta regra faça as seguintes alterações */
+/* -itens do menu: desative a propiedade float */
+/* -Links do menu: alinhe o texto ao centro */
+
+.menu.aberto li {
+    float: none;
+    display: inline;
+}
+
+   .menu.aberto { position: relative;}
+
+   .menu.aberto li.icone {
+    position: absolute;
+    right: 0; top: 0%;
+}
+}

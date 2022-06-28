@@ -1,0 +1,38 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "titulo": "Programador Java"
+    },
+    {
+      "id": 2,
+      "titulo": "analista de Dados"
+    },
+    {
+      "id": 3,
+      "titulo": "Arquiteto de Sistemas"
+    },
+    {
+      "id": 4,
+      "titulo": "Professor de Excel"
+    }
+  ],
+  "candidatos": [
+    {
+      "nome": "Fabricio Caixeta Macedo",
+      "data": "2222-02-11",
+      "telefone": "11 2222-3333",
+      "email": "fabricio.macedo2012@hotmail.com",
+      "vaga": "Programador Java",
+      "id": 1
+    },
+    {
+      "nome": "tiago",
+      "data": "3333-03-22",
+      "telefone": "11 2222-3333",
+      "email": "tiago@hotmail.com",
+      "vaga": "analista de Dados",
+      "id": 2
+    }
+  ]
+}
